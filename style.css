@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
+:root {
+    scroll-behavior:smooth;
+}
+#main-img {
+    width:100%;
+    height:auto;
+    max-width:800px;
+    margin:0 auto 10px auto;
+    display:block;
+}
+#title-header {
+    display:block;
+    max-width:600px;
+    margin:20px auto 20px auto;
+    
+}
+p::first-letter {
+    font-size:1.1rem;
+}
+hr {
+    margin:20px 0 20px 0;
+}
+h1,h2 {
+    font-family:"Eater", cursive;
+    -webkit-text-stroke: 1px red;
+}
+.inside {
+    max-width:800px;
+    width:100%;
+    margin: 0 auto 0 auto;
+}
+h2 {
+    font-weight:normal;
+}
+img {
+    display:block;
+    margin:30px auto 30px auto;
+    height:300px;
+    max-width:95%;
+    object-fit: contain;
+    border-radius:5px;
+}
+.double-img img {
+    height:300px;
+}
+iframe {
+    display:block;
+    margin:0 auto 0 auto;
+    
+}
+#navigation {
+    font-style: italic;
+}
